@@ -1,0 +1,19 @@
+﻿<Window x:Class="CS_ASP_012.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CS_ASP_012"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <RadioButton x:Name="pencilRadioButton" Content="Pencil" HorizontalAlignment="Left" Margin="107,133,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <RadioButton x:Name="pinRadioButton" Content="Pin" HorizontalAlignment="Left" Margin="107,166,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <RadioButton x:Name="phoneRadioButton" Content="Phone" HorizontalAlignment="Left" Margin="107,204,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <RadioButton x:Name="padRadioButton" Content="Pad" HorizontalAlignment="Left" Margin="107,240,0,0" VerticalAlignment="Top" FontSize="22" ClickMode="Release"/>
+        <Label x:Name="labelAnswer" Content="" HorizontalAlignment="Left" Margin="285,193,0,0" VerticalAlignment="Top" Width="411" Height="84" FontSize="22"/>
+        <Label Content="Choose one you prefer to use." HorizontalAlignment="Left" Margin="253,40,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
+        <Button Content="Push Me!" HorizontalAlignment="Left" Margin="178,304,0,0" VerticalAlignment="Top" FontSize="22" Width="266" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
